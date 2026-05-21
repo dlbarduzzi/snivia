@@ -11,7 +11,7 @@ export default antfu({
     indent: 2,
     quotes: "double",
   },
-  ignores: [".next/**", "node_modules/**"],
+  ignores: [".next/**", "node_modules/**", "./src/db/migrations/**"],
   rules: {
     "antfu/if-newline": "off",
     "no-empty": "error",

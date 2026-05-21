@@ -10,6 +10,18 @@ export default function Page() {
         </div>
         <div className="mt-2 flex flex-col">
           <Link
+            href="/sign-in"
+            className="max-w-fit text-sm font-medium text-neutral-900"
+          >
+            /sign-in
+          </Link>
+          <Link
+            href="/dashboard"
+            className="max-w-fit text-sm font-medium text-neutral-900"
+          >
+            /dashboard
+          </Link>
+          <Link
             href="/health/trpc"
             className="max-w-fit text-sm font-medium text-neutral-900"
           >
